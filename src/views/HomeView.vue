@@ -247,7 +247,7 @@
       
       <!-- Project Info Cards -->
       <div class="project-info-grid scroll-reveal">
-        <div class="project-info-card scroll-reveal-left hover-lift glass-effect">
+        <div class="project-info-card hover-lift glass-effect">
           <h3 class="info-card-title">{{ t('contact.whoWeServe.title') }}</h3>
           <ul class="info-list">
             <li class="hover-bounce">
@@ -293,7 +293,7 @@
           </ul>
         </div>
         
-        <div class="project-info-card scroll-reveal-right hover-lift glass-effect">
+        <div class="project-info-card hover-lift glass-effect">
           <h3 class="info-card-title">{{ t('contact.whyChoose.title') }}</h3>
           <ul class="info-list">
             <li class="hover-bounce">
