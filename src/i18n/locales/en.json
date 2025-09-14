@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "companyName": "IltizamTech",
+    "tagline": "AI-Powered Inspection Management System"
+  },
+  "hero": {
+    "location": "Riyadh - Abu Dhabi",
+    "title": "IltizamTech",
+    "tagline": "Shaping Reliable & Intelligent Digital Futures",
+    "description": "Empowering governments and enterprises with AI-driven solutions, SRE excellence, and digital transformation across Saudi Arabia and the UAE.",
+    "cta": "Discover Our Solutions",
+    "established": "Established 2023"
+  },
+  "about": {
+    "title": "About IltizamTech",
+    "description": "Founded in 2023, IltizamTech is a pioneering technology company with headquarters in Riyadh, Saudi Arabia, and Abu Dhabi, UAE. We specialize in delivering cutting-edge AI solutions, robust Site Reliability Engineering (SRE) services, and comprehensive digital transformation strategies for governments and enterprises.",
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading technology partner in the Gulf region, driving digital excellence and innovation that transforms how governments and businesses operate in the digital age."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We are committed to delivering reliable, intelligent, and scalable technology solutions that empower our clients to achieve operational excellence, enhance citizen services, and drive sustainable growth."
+    },
+    "locations": {
+      "title": "Our Locations",
+      "subtitle": "Headquarters in Riyadh & Abu Dhabi",
+      "riyadh": "Riyadh, Saudi Arabia",
+      "abudhabi": "Abu Dhabi, UAE"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "ai": {
+      "title": "AI Solutions",
+      "description": "Advanced artificial intelligence and machine learning solutions for automation, analytics, and intelligent decision-making."
+    },
+    "sre": {
+      "title": "Site Reliability Engineering",
+      "description": "Comprehensive SRE services ensuring maximum uptime, performance optimization, and scalable infrastructure management."
+    },
+    "development": {
+      "title": "Software Development",
+      "description": "Custom software development with modern technologies, from web applications to enterprise systems."
+    },
+    "transformation": {
+      "title": "Digital Transformation",
+      "description": "End-to-end digital transformation consulting and implementation services for government and enterprise clients."
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Innovative solutions delivering real-world impact",
+    "inspectz": {
+      "title": "InspectZ - AI-Powered Inspection Management System",
+      "description": "A comprehensive inspection management platform that revolutionizes government compliance monitoring through artificial intelligence, real-time analytics, and mobile-first design.",
+      "features": {
+        "title": "Key Features:",
+        "dashboard": "Real-time inspection dashboard with Arabic/English support",
+        "detection": "AI-powered violation detection and analytics",
+        "mobile": "Mobile inspection interface with voice and camera integration"
+      },
+      "technologies": {
+        "title": "Technologies Used:",
+        "netcore": ".Net Core microservice",
+        "flutter": "Flutter",
+        "arcgi": "ARC GI",
+        "angular": "Angular 19",
+        "nlp": "AI/NLP",
+        "ml": "AI/ML"
+      },
+      "cta": "View Interactive Project"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "locations": {
+      "title": "Our Locations",
+      "riyadh": "Riyadh - Saudi Arabia",
+      "abudhabi": "Abu Dhabi - UAE"
+    },
+    "info": {
+      "title": "Contact Info",
+      "email": "info{'@'}iltizamtech.com",
+      "website": "www.iltizamtech.com"
+    },
+    "cta": "Contact Us",
+    "whoWeServe": {
+      "title": "Who We Serve",
+      "government": "Government agencies seeking digital transformation",
+      "public": "Public sector organizations requiring AI solutions",
+      "enterprises": "Enterprises looking for SRE and infrastructure optimization",
+      "partners": "Organizations needing reliable software development partners"
+    },
+    "whyChoose": {
+      "title": "Why Choose IltizamTech",
+      "expertise": "Regional expertise with global technology standards",
+      "trackRecord": "Proven track record in government and enterprise projects",
+      "bilingual": "Bilingual support (Arabic/English) and cultural understanding",
+      "comprehensive": "Comprehensive service portfolio from consulting to implementation",
+      "commitment": "Commitment to reliability, security, and scalability"
+    }
+  },
+  "footer": {
+    "companyName": "IltizamTech",
+    "tagline": "AI-Powered Inspection Management System",
+    "description": "Shaping reliable & intelligent digital futures for governments and enterprises across Saudi Arabia and the UAE.",
+    "copyright": "© 2025 IltizamTech. All rights reserved."
+  }
+}
