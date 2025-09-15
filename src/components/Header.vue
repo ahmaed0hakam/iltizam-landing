@@ -141,6 +141,10 @@ onMounted(() => {
   color: var(--color-secondary);
 }
 
+.nav-actions {
+  padding-inline: 0.5rem;
+}
+
 /* Language Dropdown */
 .lang-dropdown {
   position: relative;
