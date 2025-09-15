@@ -110,5 +110,12 @@
     "tagline": "AI-Powered Inspection Management System",
     "description": "Shaping reliable & intelligent digital futures for governments and enterprises across Saudi Arabia and the UAE.",
     "copyright": "© 2025 IltizamTech. All rights reserved."
+  },
+  "modal": {
+    "fullscreen": {
+      "enter": "Enter Fullscreen",
+      "exit": "Exit Fullscreen"
+    },
+    "close": "Close"
   }
 }

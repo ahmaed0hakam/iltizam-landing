@@ -24,7 +24,7 @@
         </svg>
       </button>
     </div>
-    <div class="hero-footer animate-fade-in-up animate-delay-5">
+    <div class="hero-footer animate-delay-5">
       <span class="established animate-pulse">{{ t('hero.established') }}</span>
     </div>
   </section>

@@ -85,8 +85,8 @@ onMounted(() => {
 .navbar {
   position: fixed;
   top: 0;
-  left: 4rem;
-  right: 4rem;
+  left: 0;
+  right: 0;
   z-index: var(--z-navbar);
   background: var(--color-bg-overlay);
   backdrop-filter: var(--backdrop-blur-lg);
@@ -118,10 +118,13 @@ onMounted(() => {
 .logo-text {
   color: var(--color-text-primary);
   font-weight: var(--font-bold);
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
 }
 
 .nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: var(--spacing-lg);
 }
@@ -131,6 +134,7 @@ onMounted(() => {
   text-decoration: none;
   font-weight: var(--font-medium);
   transition: color var(--transition-fast);
+  font-size: var(--text-xl);
 }
 
 .nav-links a:hover {

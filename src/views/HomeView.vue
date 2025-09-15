@@ -30,7 +30,7 @@
         </div>
         
         <div class="about-right scroll-reveal-right">
-          <div class="locations-card morphing-shape hover-glow">
+          <div class="locations-card hover-glow">
             <h3 class="locations-title">{{ t('about.locations.title') }}</h3>
             <p class="locations-subtitle">{{ t('about.locations.subtitle') }}</p>
             
@@ -235,7 +235,7 @@
             </div>
           </div>
           
-          <button class="project-cta btn-magnetic hover-lift scroll-reveal">
+          <button class="project-cta btn-magnetic hover-lift scroll-reveal" @click="openModal">
             {{ t('projects.inspectz.cta') }}
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.16669 10H15.8334M15.8334 10L10.8334 5M15.8334 10L10.8334 15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -418,6 +418,9 @@
     
     <!-- Footer Section -->
     <Footer />
+    
+    <!-- Project Modal -->
+    <ProjectModal :is-open="isModalOpen" @close="closeModal" />
   </div>
 </template>
 
@@ -427,9 +430,11 @@ import { useI18n } from 'vue-i18n'
 import Header from '@/components/Header.vue'
 import Hero from '@/components/Hero.vue'
 import Footer from '@/components/Footer.vue'
+import ProjectModal from '@/components/ProjectModal.vue'
 
 const { locale, t } = useI18n()
 const currentLocale = ref('en')
+const isModalOpen = ref(false)
 
 const scrollToHero = () => {
   const element = document.getElementById('hero')
@@ -440,6 +445,14 @@ const scrollToHero = () => {
       inline: 'nearest'
     })
   }
+}
+
+const openModal = () => {
+  isModalOpen.value = true
+}
+
+const closeModal = () => {
+  isModalOpen.value = false
 }
 
 
